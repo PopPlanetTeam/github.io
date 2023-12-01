@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0 10%;
+    background-color: #f99f00;
+}
+
+main {
+    backdrop-filter: blur(80%);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#cardsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: inline-block;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 0px 10px 0px;
+    background: radial-gradient(circle, rgba(255,90,159,1) 35%, rgba(195,29,127,1) 100%);
+    margin: 10px;
+    padding: 20px;
+}
+
+.card * {
+    text-align: center;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    border: 3.5px solid white;
+    border-radius: 50%;
+}

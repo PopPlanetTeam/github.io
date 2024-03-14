@@ -15,6 +15,17 @@ h2 {
     font-size: 40px;
 }
 
+main section p {
+    font-size: 30px;
+    width: 70vw;
+    margin-left: 10vw;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #0458125d;
+    color: rgb(214, 212, 190);
+
+}
+
 body {
     background-image: url(../imgs/background_03.png);
     background-repeat: repeat;

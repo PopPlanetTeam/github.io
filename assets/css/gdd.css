@@ -1,3 +1,54 @@
+header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(29, 1, 1);
+}
+
+h2 {
+    font-size: 40px;
+}
+
 body {
-    background-image: url(../imgs/nether2.jpg);
+    background-image: url(../imgs/background_03.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+#main-content-list{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul{
+    padding: 5vh 10vh;
+    background-color: #0458125d;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+a {
+    color: #3a0606;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgba(204, 17, 17, 0.7);
+}
+
+#projects p a {
+    font-size: 32px;
 }
